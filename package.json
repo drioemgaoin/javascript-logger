@@ -1,0 +1,27 @@
+{
+  "name": "javascript-logger",
+  "version": "1.0.0",
+  "description": "Logger javascript with line number using the mapping if needed",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drioemgaoin/javascript-logger.git"
+  },
+  "keywords": [
+    "javascript",
+    "logger",
+    "mapping"
+  ],
+  "author": "Romain Diegoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drioemgaoin/javascript-logger/issues"
+  },
+  "homepage": "https://github.com/drioemgaoin/javascript-logger#readme"
+}
