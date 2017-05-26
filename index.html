@@ -1,11 +1,18 @@
 <html>
   <head>
-    <script type="text/javascript" src="build/logger.js"></script>
+    <title>Javascript logger</title>
+    <script type="text/javascript" src="build/test.js"></script>
   </head>
+  <body>
+    <script src="build/logger.js"></script>
+    <h1>Javascript</h1>
+    <script type="text/javascript">
+      (function() {
+        console.log('OK!');
+        test('Hello from pure javascript function');
+        Logger.useDefaults();
 
-  <script type="text/javascript">
-    (function() {
-      logger.info();
-    })();
-  </script>
+      })();
+    </script>
+  </body>
 </html>
